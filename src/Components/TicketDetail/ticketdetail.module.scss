@@ -1,0 +1,149 @@
+.wrapper {
+}
+.inner {
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
+}
+.share-icon,
+.heart-icon,
+.icon-back {
+  padding: 10px;
+
+  svg {
+    font-size: 26px;
+  }
+}
+.pink {
+  color: #fe2c55;
+  display: none;
+}
+.icon-back {
+}
+.right {
+  position: relative;
+}
+.share-icon {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+.heart-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.content {
+}
+.avatar {
+  width: 100%;
+  height: 270px;
+  margin-bottom: 20px;
+  position: relative;
+
+  .watch-video {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
+.title {
+  padding: 0 30px 30px 30px;
+}
+.time {
+  display: flex;
+  padding: 0 30px 20px 30px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.desc-time {
+  display: flex;
+}
+.date-month {
+  margin-right: 30px;
+  background: #a1a8b41a;
+  border-radius: 8px;
+  width: 0;
+  height: 0;
+  padding: 27px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 27px;
+}
+.date {
+}
+.month {
+  color: var(--back-gray);
+  padding-right: 1px;
+}
+.day-hour {
+}
+.day {
+}
+.hour {
+  color: var(--back-gray);
+}
+.select-time {
+}
+.carlendar {
+  background-color: white !important;
+  border: 1px solid var(--orange);
+  height: 55px;
+  min-width: 0;
+  padding: 9px 20px;
+
+ svg{
+  font-size: 23px;
+ }
+}
+.desc {
+  padding: 0 30px 20px 30px;
+  font-size: 16px;
+  
+}
+.title-desc {
+}
+.content-desc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--back-gray);
+  font-weight: 500;
+  height: 120px;
+}
+.more {
+  font-weight: 500;
+  color: var(--orange);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 20px 30px;
+  
+}
+.desc-price {
+}
+.price {  
+  font-size: 17px;
+}
+.remain {
+  color: var(--back-gray);
+}
+.get-btn {
+  width: 160px;
+  height: 60px;
+}

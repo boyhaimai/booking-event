@@ -1,0 +1,195 @@
+@media (max-width: 431px) {
+  .wrapper {
+    background-color: #f9fafb;
+  }
+  .header {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+    .icon-menu {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      font-size: 25px;
+    }
+  }
+  .wrap-calendar {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+
+    &::before {
+      content: "";
+      background-color: #a1a8b426;
+      width: 110px;
+      height: 10px;
+      display: inline-block;
+      border-radius: 8px;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .hightlight {
+    background-color: #00334e !important;
+    color: white !important;
+  }
+  .hidden {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 10px 30px;
+    font-weight: 600;
+  }
+  .next-month {
+    color: var(--back-gray);
+    background-color: #8080801a;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+  .selected-month {
+    margin: 0 15px 0 15px;
+  }
+  .prev-month {
+    color: var(--back-gray);
+    background-color: #8080801a;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+  .icon-calendar {
+    color: var(--color-letter);
+    font-size: 25px;
+  }
+  .calendar-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 30px 30px;
+    font-weight: 800;
+  }
+  .calendar {
+    background-color: #a1a8b412;
+    border-radius: 15px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+  }
+  .content {
+    margin-top: 30px;
+    padding-bottom: 120px;
+
+  }
+  .status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px 30px 30px;
+    font-weight: 700;
+  }
+  .status-upcoming {
+    padding: 6px 40px 6px 40px;
+    margin-right: 10px;
+    border-radius: 12px;
+    background-color: white;
+    color: var(--back-gray);
+    width: 185px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .past-ticket {
+    padding: 6px 40px 6px 40px;
+    border-radius: 12px;
+    background-color: white;
+    color: var(--back-gray);
+    width: 185px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .block-lists {
+  }
+  .list-ticket {
+    position: relative;
+    margin: 20px 0 20px 0;
+  }
+  .title-ticket {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0 30px 0 30px;
+    border-radius: 25px;
+  }
+  .title-item {
+    font-size: 16px;
+    width: 219px;
+  }
+  .icon-music {
+
+  }
+  .dashed-line {
+    position: absolute;
+    top: 87px;
+    left: 44px;
+    border: none;
+    border-top: 2px dashed var(--color-letter);
+    width: 340px;
+  }
+  .info-ticket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0 30px 0 30px;
+    border-radius: 25px;
+    width: 370px;
+    height: 96px;
+  }
+  .left-info {
+    display: flex;
+  }
+
+  .time {
+    margin-right: 10px;
+  }
+  .time-start {
+    color: var(--back-gray);
+  }
+  .right-info {
+    background-color: var(--color-outline);
+    padding: 6px 10px 6px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .box-calendar {
+    background-color: rgb(255, 0, 0);
+    width: 140px;
+    position: relative;
+    left: 5px;
+    color: white;
+    height: 31px;
+    font-weight: 800;
+    padding-left: 34px;
+  }
+  .no-ticket {
+    text-align: center;
+    // margin-top: 81px;
+    color: #ff8142d1;
+  }
+}

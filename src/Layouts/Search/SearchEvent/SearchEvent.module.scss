@@ -1,0 +1,109 @@
+@media (max-width: 431px) {
+  .wrapper {
+    padding: 5rem;
+  }
+  .search-result {
+    background-color: white !important;
+    width: 365px;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 12%) 0 2px 12px;
+  }
+  .input-data {
+    width: 35rem;
+    height: 6rem;
+    border: 1px solid white;
+    border-radius: 18px;
+    background-color: #f9fafb;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    input {
+      padding: 18px 50px;
+      border-radius: 18px;
+      font-size: 2rem;
+      background-color: #f9fafb;
+      caret-color: var(--orange);
+      padding-inline-start: 12px;
+      float: right;
+      color: black;
+    }
+
+    input::placeholder {
+      color: var(--back-gray);
+    }
+
+    &:focus-within {
+      border: 1px solid var(--orange);
+    }
+  }
+  .icon-location {
+    font-size: 2.2rem;
+    color: var(--back-gray);
+    position: absolute;
+    top: 13px;
+    left: 15px;
+  }
+  .icon-clear {
+    font-size: 2.2rem;
+    color: var(--back-gray);
+    position: absolute;
+    top: 13px;
+    right: 25px;
+  }
+  .upcoming-event {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    height: 110px;
+    margin-bottom: 20px;
+  }
+  .item-left {
+    position: relative;
+  }
+  .img-ticket {
+    height: 100px;
+    width: 100px;
+    object-fit: fill;
+  }
+  .calendar {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 20px;
+  }
+  .month {
+    color: var(--back-gray);
+    padding: 0;
+    margin: 0;
+  }
+  .item-right {
+    padding-right: 5px;
+  }
+  .title-ticket {
+    font-size: 14px;
+  }
+  .desc-ticket {
+    display: flex;
+    margin-top: 35px;
+  }
+  .place {
+    margin-right: 15px;
+    color: var(--back-gray);
+  }
+  .icon-place {
+    margin-right: 5px;
+  }
+}

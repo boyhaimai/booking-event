@@ -1,0 +1,212 @@
+@media (max-width: 431px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px 0 30px 0;
+  }
+  .icon-back {
+    position: absolute;
+    left: 30px;
+
+    svg {
+      font-size: 26px;
+    }
+  }
+  .title-upcoming {
+    margin-bottom: 20px;
+  }
+  .ticket-event {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    height: 150px;
+    margin: 0 20px 20px 20px;
+  }
+  .item-left {
+    position: relative;
+  }
+  .img-ticket {
+    height: 145px;
+    width: 145px;
+    object-fit: fill;
+  }
+  .calendar {
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 20px;
+  }
+  .month {
+    color: var(--back-gray);
+    padding: 0;
+    margin: 0;
+  }
+  .item-right {
+    padding-right: 5px;
+  }
+  .title-ticket {
+    font-size: 16px;
+  }
+  .desc-ticket {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+  }
+  .place {
+    margin-right: 15px;
+    color: var(--back-gray);
+  }
+  .icon-place {
+    margin-right: 5px;
+  }
+  .info {
+    color: var(--back-gray);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 37px;
+  }
+  .title-watch {
+    color: black;
+  }
+  .title-order {
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  .info-payment {
+    font-size: 18px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  .payment {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border: 1px solid var(--color-outline);
+    line-height: 38px;
+    background-color: white;
+  }
+  .left-payment {
+  }
+  .title-payment {
+    color: var(--back-gray);
+  }
+  .fees {
+    padding-bottom: 20px;
+  }
+  .icon-warning {
+  }
+  .right-payment {
+    font-weight: 600;
+  }
+  .price {
+  }
+  .total-payment {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .payment-method {
+  }
+  .title-method {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+    p {
+      color: var(--orange);
+      font-size: 15px;
+    }
+  }
+  .method-paypal {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    border: 1px solid var(--color-outline);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+  }
+  .info-method {
+    h5 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    p {
+      color: var(--back-gray);
+      font-size: 14px;
+    }
+  }
+  .left-paypal {
+  }
+  .right-paypal {
+  }
+
+  .img-paypal {
+    width: 58px;
+    height: 63px;
+    padding: 15px;
+    background: #b5b4b414;
+    border-radius: 15px;
+    margin-right: 5px;
+  }
+  .continue {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    padding: 0 20px 0 20px;
+  }
+  .desc {
+    color: var(--back-gray);
+  }
+  .total {
+    font-weight: 800;
+  }
+  .wrapper-overlay {
+    width: 100%;
+    height: 100%;
+    offset: 0;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .overlay-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-success {
+    width: 100%;
+    position: absolute;
+    top: 192px;
+    left: 0;
+  }
+  .btn-view-ticket {
+    position: absolute;
+    bottom: 180px;
+  }
+  .btn-view-more {
+    position: absolute;
+    bottom: 95px;
+  }
+}

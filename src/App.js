@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Fragment, useContext } from "react";
+
+import { publicRoutes } from "./routes/index";
+import DefaultLayout from "~/Layouts/DefaultLayout/DefaultLayout";
+import { AuthContext } from "./Components/AuthProvider/AuthProvider";
+import MenuModalItem from "~/Components/AuthForm/MenuModalItem/MenuModalItem";
 
 function App() {
+
+  const {isAuth} = useContext(AuthContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {publicRoutes.map((item, index) => {
+            const Layout = item.layout === null ? Fragment : DefaultLayout;
+            const Page = item.component;
+
+            if(item.requireAuth && !isAuth){
+                return <Route key={index} path={item.path} element={<MenuModalItem/>}/>
+            }
+
+            return (
+              <Route
+                key={index}
+                path={item.path}
+                element={
+                  <Layout>
+                    <Page />
+                  </Layout>
+                }
+              />
+            );
+          })}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

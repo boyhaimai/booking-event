@@ -1,0 +1,99 @@
+@media (max-width: 431px) {
+  .wrapper {
+    background-color: #f9fafb;
+  }
+  .header {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+    .icon-back {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      font-size: 25px;
+    }
+
+    .icon-menu {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      font-size: 25px;
+    }
+  }
+  .img-frame {
+    width: 360px;
+    height: 600px;
+    position: relative;
+    top: 30px;
+    left: 35px;
+  }
+  .img-popular {
+    position: absolute;
+    top: 151px;
+    left: 62px;
+    width: 307px;
+    height: 183px;
+  }
+  .title-ticket {
+    position: absolute;
+    top: 391px;
+    left: 74px;
+    width: 284px;
+    padding: 0 30px 0 30px;
+  }
+  .info-ticket {
+    display: flex;
+    justify-content: space-between;
+    width: 284px;
+    height: 111px;
+    position: absolute;
+    bottom: 356px;
+    left: 74px;
+    padding: 0 30px 0 30px;
+  }
+  .left-info {
+  }
+  .date {
+    margin-bottom: 15px;
+  }
+  .date-title,
+  .venue-title,
+  .time-start {
+    color: var(--back-gray);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .time {
+    margin-bottom: 15px;
+  }
+  .dashed-line {
+    position: absolute;
+    bottom: 328px;
+    left: 95px;
+    border: none;
+    border-top: 2px dashed var(--color-letter);
+    width: 244px;
+  }
+  .barcode {
+    position: absolute;
+    left: 92px;
+    bottom: 266px;
+    width: 247px;
+    height: 40px;
+  }
+  .footer {
+    margin-top: 81px;
+    margin-left: 35px;
+  }
+  .btn_down_image {
+    height: 65px;
+    width: 170px;
+    margin-right: 20px;
+  }
+  .btn_show_qr {
+    height: 65px;
+    width: 170px;
+  }
+}

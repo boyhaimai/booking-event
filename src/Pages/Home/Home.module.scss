@@ -1,0 +1,134 @@
+@media (max-width: 431px) {
+  .wrapper {    
+    background-color: #00000007;
+  }
+
+  .inner {
+    padding: 40px 0px 0 40px;
+    height: 823px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-right: 40px;
+
+  }
+  .desc {
+    color: var(--back-gray);
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .title {
+    color: black;
+  }
+  
+  .title-upcoming {
+    margin-bottom: 20px;
+  }
+  .upcoming-event {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 12px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .item-left {
+    position: relative;
+  }
+  .img-ticket {
+    height: 100px;
+    width: 100px;
+    object-fit: fill;
+  }
+  .calendar {
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 20px;
+  }
+  .month {
+    color: var(--back-gray);
+    padding: 0;
+    margin: 0;
+  }
+  .item-right {
+    padding-right: 5px;
+  }
+  .title-ticket {
+    font-size: 14px;
+  }
+  .desc-ticket {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+  }
+  .place {
+    margin-right: 15px;
+    color: var(--back-gray);
+  }
+  .icon-place {
+    margin-right: 5px;
+  }
+  .title-popular-now {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    margin-bottom: 30px;
+
+    span{
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--back-gray);        
+    }
+  }
+  .popular-now-wrapper {
+    margin-bottom: 20px;
+  }
+  .event-popular {
+    background-color: white !important;
+    width: 335px !important;
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 0;
+    overflow: hidden;
+  }
+  .img-popular {
+    width: 315px;
+  }
+  .info-popular {
+    display: flex;
+    align-items: center;
+    color: var(--back-gray);
+  }
+  .date-popular {
+    margin-right: 10px;
+  }
+ .btn-price{
+    margin-left: 80px !important;
+    margin-top: 20px;
+ }
+ .slick-slider {
+  width: 100% !important;
+  overflow: hidden !important;
+}
+.who-follow{
+  margin-bottom: 30px;
+}
+}

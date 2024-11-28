@@ -1,0 +1,75 @@
+@import "normalize.css";
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap";
+
+// * {
+//   box-sizing: border-box;
+//   margin: 0;
+//   padding: 0;
+// }
+// :root {
+//   --orange: #ff8142;
+//   --line-height: 1.5;
+// }
+
+// html {
+//   font-size: 62.5%;
+// }
+
+// body {
+//   font-family: "Open Sans", system-ui;
+//   font-size: 1.6rem;
+//   line-height: var(--line-height);
+//   text-rendering: optimizeSpeed;
+// }
+
+//////////////////////////////////// mobile////////////////////////////////////////////////
+@media (max-width: 431px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --orange: #ff8142;
+    --hover-ora: #ff8142ad;
+    --color-outline: #c0c4ca30;
+    --hover-outl: #00000008;
+
+    --line-height: 1.5;
+
+    --box-sha-bottom: 0 1px 1px rgb(0 0 0 / 12%);
+    --box-sha-top: 0 -1px 1px rgb(0 0 0 / 12%);
+
+    --color-letter: #c0c4ca;
+
+    --back-gray: #a1a8b4;
+    --default-back: #00000007;
+  }
+  html {
+    font-size: 62.5%;
+    background-color: #00000007 !important;
+  }
+
+  body {
+    font-family: "Open Sans", system-ui;
+    font-size: 1.6rem;
+    line-height: var(--line-height);
+    text-rendering: optimizeSpeed;
+  }
+
+  button,
+  input,
+  [tabindex] {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: transparent;
+  }
+
+  a[href] {
+    text-decoration: none;
+    color: black;
+  }
+}

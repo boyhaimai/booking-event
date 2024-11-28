@@ -1,0 +1,154 @@
+@media (max-width: 431px) {
+  .wrapper {
+    width: 100%;
+    height: 93rem;
+  }
+  .back {
+    padding: 50px 15px 0 45px;
+    width: 4rem;
+    font-size: 27px;
+
+    svg {
+      color: black;
+    }
+  }
+  .inner {
+    text-align: center;
+    position: relative;
+    height: 100%;
+  }
+  h2.title {
+    margin-top: 60px;
+  }
+  .desc {
+    color: var(--back-gray);
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  .form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .showpass {
+    position: absolute;
+    top: 375px;
+    right: 61px;
+  }
+  .app {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .gg {
+    top: 20px;
+  }
+  .btn {
+    line-height: 78px;
+    margin-top: -18px;
+  }
+  .policy {
+    position: absolute;
+    bottom: 4rem;
+    left: 4rem;
+    line-height: 25px;
+    width: 35rem;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--back-gray);
+
+    a {
+      color: black;
+      font-weight: 700;
+    }
+  }
+  .input-data {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 35rem;
+    height: 6rem;
+    border: 1px solid white;
+    border-radius: 18px;
+    background-color: #f9fafb;
+    transition: all 0.2s linear;
+    overflow: hidden;
+
+    input {
+      padding: 18px 50px;
+      border-radius: 18px;
+      font-size: 2rem;
+      background-color: #f9fafb;
+      caret-color: var(--orange);
+      padding-inline-start: 12px;
+      float: right;
+      font-weight: 500;
+      color: black;
+    }
+
+    input::placeholder {
+      color: var(--back-gray);
+    }
+
+    &:focus-within {
+      border: 2px solid var(--orange);
+    }
+  }
+  .icon-email {
+    position: absolute;
+    top: 285px;
+    left: 53px;
+    font-size: 24px;
+    color: var(--back-gray);
+  }
+  .icon-user {
+    position: absolute;
+    top: 195px;
+    left: 53px;
+    font-size: 24px;
+    color: var(--back-gray);
+  }
+  .icon-lock {
+    position: absolute;
+    top: 375px;
+    left: 53px;
+    font-size: 24px;
+    color: var(--back-gray);
+  }
+}
+.wrapper-overlay {
+  width: 100%;
+  height: 100%;
+  offset: 0;
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.overlay-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.back-icon {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  font-size: 30px;
+  color: var(--back-gray);
+}
+.img-success {
+  width: 100%;
+  position: absolute;
+  top: 192px;
+  left: 0;
+}
+.btn-login {
+  position: absolute;
+  bottom: 70px;
+}
