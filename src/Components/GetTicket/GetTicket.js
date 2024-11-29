@@ -381,10 +381,10 @@ function GetTicket() {
                           onClick={() => {
                             if (selectedQuantityRe > 0) {
                               setSelectedQuantityRe(
-                                activeTicketRe && selectedQuantityRe - 1
+                                activeTicketRe && Number(selectedQuantityRe) - 1
                               );
                               setTotalPrice(
-                                totalPrice - (item.priceRe || item.price)
+                                Number(totalPrice) - Number(item.priceRe || item.price)
                               );
                             } else {
                               alert(
@@ -406,9 +406,9 @@ function GetTicket() {
                               selectedQuantityRe <
                                 (item.remainEventRe || item.remainingTickets)
                             ) {
-                              setSelectedQuantityRe(selectedQuantityRe + 1);
+                              setSelectedQuantityRe(Number(selectedQuantityRe) + 1);
                               setTotalPrice(
-                                totalPrice + (item.priceRe || item.price)
+                                Number(totalPrice) + Number(item.priceRe || item.price)
                               );
                             } else {
                               alert(
